@@ -205,8 +205,33 @@ app.run(host='0.0.0.0', port=port)
                             <td>@twitter</td>
                         </tr>
                     </tbody>
-
                 </table>
+                <hr>
+                <form>
+                    <fieldset>
+                        <legend class="col-form-legend">Was this article helpful?</legend>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" name="helpful-article" class="from-check-input" value="yes">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" name="helpful-article" class="from-check-input" value="no">
+                                No
+                            </label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="col-form-legend">Anything else we can do to improve our site?</legend>
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" rows="6" class="from-control"></textarea>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="btn btn-sm btn-secondary">Submit Feedback</button>
+                </form>
             </article>
         </div>
         <div class="col-12 col-lg-3">
