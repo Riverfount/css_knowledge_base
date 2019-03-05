@@ -73,7 +73,7 @@
         <div class="col-12 col-lg-6 pt-3">
             <article>
                 <h2>Article Heading</h2>
-                <div class="small">Last update:
+                <div class="small mb-3">Last update:
                     <time datetime="2017-05-20">May 20, 2017</time>
                 </div>
                 <p class="lead">
@@ -85,13 +85,13 @@
                     Ultricies tincidunt lobortis sodales per metus consequat, porta augue fames facilisi placerat ad
                     dis, dictumst conubia odio feugiat posuere.
                 </p>
-                <h3>Article Sub Heading</h3>
+                <h3 class="mt-5 font-italic">Article Sub Heading</h3>
                 <p>
                     Inceptos sociosqu porttitor morbi metus posuere dictum nec, sociis tristique pellentesque placerat
                     orci magnis integer, facilisi vel suscipit vitae diam urna. Bibendum justo pretium a consequat mus
                     curae, luctus natoque nisi facilisi purus class, ultrices tempus ante augue montes.
                 </p>
-                <img src="img/700x500.png" alt="A image example" class="img-fluid">
+                <img src="img/700x500.png" alt="A image example" class="img-fluid mb-3">
                 <h4 class="h5">Article Small sub heading</h4>
                 <p>
                     Egestas montes lectus aenean primis faucibus, massa justo fusce elementum natoque vivamus, etiam
@@ -100,7 +100,7 @@
                     senectus.
                 </p>
                 <a href="#0">Link to other article</a>
-                <h3>Article Sub Heading</h3>
+                <h3 class="mt-5 font-italic">Article Sub Heading</h3>
                 <p>
                     Hendrerit nunc curae nisl neque ante ad quisque vestibulum sem enim, ridiculus orci pulvinar
                     venenatis dis massa sociosqu augue. Sollicitudin phasellus et netus ornare nisi est ultrices
@@ -112,7 +112,7 @@
                     <li>Praesent metus facilisis augue commodo tortor gravida feugiat</li>
                     <li>Curabitur nam et a vivamus egestas ut conubia</li>
                 </ul>
-                <h3>Article Sub Heading</h3>
+                <h3 class="mt-5 font-italic">Article Sub Heading</h3>
                 <p>
                     Fermentum cubilia lectus ullamcorper id pulvinar integer nulla eu odio, sollicitudin pretium
                     pellentesque litora ultrices eget molestie condimentum facilisi, duis cum montes at porttitor dui
@@ -124,25 +124,25 @@
                 <ol>
                     <li>
                         Porttitor molestie leo litora eget magna lobortis cum
-                        <img src="img/700x500.png" class="img-fluid">
+                        <img src="img/700x500.png" class="img-fluid my-3">
                     </li>
                     <li>
                         Praesent metus facilisis augue commodo tortor gravida feugiat
-                        <img src="img/700x500.png" class="img-fluid">
+                        <img src="img/700x500.png" class="img-fluid my-3">
                     </li>
                     <li>
                         Curabitur nam et a vivamus egestas ut conubia
-                        <img src="img/700x500.png" class="img-fluid">
+                        <img src="img/700x500.png" class="img-fluid my-3">
                     </li>
                 </ol>
-                <h3>Article Sub Heading</h3>
+                <h3 class="mt-5 font-italic">Article Sub Heading</h3>
                 <p>
                     Vivamus dapibus non nibh metus aenean himenaeos nisi velit magnis, fringilla mi tortor gravida
                     placerat iaculis pharetra habitant semper porttitor, sociis vulputate sociosqu ligula consequat
                     risus diam duis. Class aenean magnis sociosqu congue imperdiet faucibus pretium platea, egestas
                     nullam vel rutrum eros diam facilisi, non suspendisse interdum tincidunt vulputate dictum placerat.
                 </p>
-<pre class="pre-scrollable">
+<pre class="pre-scrollable mb-0">
     <code>
 import os
 from decouple import config
@@ -175,7 +175,7 @@ if __name__ == '__main__':
 app.run(host='0.0.0.0', port=port)
     </code>
 </pre>
-                <h3>Article Sub Heading</h3>
+                <h3 class="mt-5 font-italic">Article Sub Heading</h3>
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -206,7 +206,7 @@ app.run(host='0.0.0.0', port=port)
                         </tr>
                     </tbody>
                 </table>
-                <hr>
+                <hr class="my-5">
                 <form>
                     <fieldset>
                         <legend class="col-form-legend">Was this article helpful?</legend>
@@ -226,8 +226,8 @@ app.run(host='0.0.0.0', port=port)
                     <fieldset>
                         <legend class="col-form-legend">Anything else we can do to improve our site?</legend>
                         <div class="form-group">
-                            <label for="message">Message:</label>
-                            <textarea id="message" rows="6" class="from-control"></textarea>
+                            <label class="sr-only" for="message">Message:</label>
+                            <textarea id="message" rows="6" class="form-control"></textarea>
                         </div>
                     </fieldset>
                     <button type="submit" class="btn btn-sm btn-secondary">Submit Feedback</button>
@@ -236,7 +236,7 @@ app.run(host='0.0.0.0', port=port)
         </div>
         <div class="col-12 col-lg-3">
             <aside class="sticky-top">
-                <h4 class="h6">Related Articles</h4>
+                <h4 class="h6 pt-3">Related Articles</h4>
                 <ul>
                     <li><a href="article.html">Related Article Heading</a></li>
                     <li><a href="article.html">Related Article Heading</a></li>
